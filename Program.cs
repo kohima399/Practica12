@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Введи X = ");
+        double x = Convert.ToDouble(Console.ReadLine());
     }
 }
