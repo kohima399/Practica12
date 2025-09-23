@@ -6,5 +6,6 @@ class Program
     {
         Console.Write("Введи X = ");
         double x = Convert.ToDouble(Console.ReadLine());
+        double F = (Math.Sin(x) - Math.Cos(x)) / 5;
     }
 }
